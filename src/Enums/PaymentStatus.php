@@ -1,6 +1,6 @@
 <?php
 
-namespace Qandeez\USIMPay\Enums;
+namespace USIMPay\Laravel\Enums;
 
 enum PaymentStatus: string
 {

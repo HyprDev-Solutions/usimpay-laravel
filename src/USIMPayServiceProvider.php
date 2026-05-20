@@ -1,6 +1,6 @@
 <?php
 
-namespace Qandeez\USIMPay;
+namespace USIMPay\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 

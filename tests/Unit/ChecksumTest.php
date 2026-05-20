@@ -1,9 +1,9 @@
 <?php
 
-namespace Qandeez\USIMPay\Tests\Unit;
+namespace USIMPay\Laravel\Tests\Unit;
 
-use Qandeez\USIMPay\USIMPayClient;
-use Qandeez\USIMPay\Tests\TestCase;
+use USIMPay\Laravel\USIMPayClient;
+use USIMPay\Laravel\Tests\TestCase;
 
 class ChecksumTest extends TestCase
 {

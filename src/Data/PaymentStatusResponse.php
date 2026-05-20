@@ -1,8 +1,8 @@
 <?php
 
-namespace Qandeez\USIMPay\Data;
+namespace USIMPay\Laravel\Data;
 
-use Qandeez\USIMPay\Enums\PaymentStatus;
+use USIMPay\Laravel\Enums\PaymentStatus;
 
 class PaymentStatusResponse
 {

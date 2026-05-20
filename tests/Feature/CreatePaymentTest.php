@@ -1,10 +1,10 @@
 <?php
 
-namespace Qandeez\USIMPay\Tests\Feature;
+namespace USIMPay\Laravel\Tests\Feature;
 
 use Illuminate\Support\Facades\Http;
-use Qandeez\USIMPay\USIMPayClient;
-use Qandeez\USIMPay\Tests\TestCase;
+use USIMPay\Laravel\USIMPayClient;
+use USIMPay\Laravel\Tests\TestCase;
 
 class CreatePaymentTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Qandeez\USIMPay\Tests\Unit;
+namespace USIMPay\Laravel\Tests\Unit;
 
-use Qandeez\USIMPay\Enums\PaymentStatus;
-use Qandeez\USIMPay\USIMPayClient;
-use Qandeez\USIMPay\Tests\TestCase;
+use USIMPay\Laravel\Enums\PaymentStatus;
+use USIMPay\Laravel\USIMPayClient;
+use USIMPay\Laravel\Tests\TestCase;
 
 class StatusNormalizerTest extends TestCase
 {

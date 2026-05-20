@@ -1,9 +1,9 @@
 <?php
 
-namespace Qandeez\USIMPay\Tests\Feature;
+namespace USIMPay\Laravel\Tests\Feature;
 
-use Qandeez\USIMPay\USIMPayClient;
-use Qandeez\USIMPay\Tests\TestCase;
+use USIMPay\Laravel\USIMPayClient;
+use USIMPay\Laravel\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {

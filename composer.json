@@ -1,5 +1,5 @@
 {
-    "name": "qandeez/usimpay-laravel",
+    "name": "usimpay/usimpay-laravel",
     "description": "Laravel package for USIMPay payment initialization, checksum generation, and payment verification.",
     "type": "library",
     "license": "MIT",
@@ -12,12 +12,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Qandeez\\USIMPay\\": "src/"
+            "USIMPay\\Laravel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qandeez\\USIMPay\\Tests\\": "tests/"
+            "USIMPay\\Laravel\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -33,10 +33,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Qandeez\\USIMPay\\USIMPayServiceProvider"
+                "USIMPay\\Laravel\\USIMPayServiceProvider"
             ],
             "aliases": {
-                "USIMPay": "Qandeez\\USIMPay\\Facades\\USIMPay"
+                "USIMPay": "USIMPay\\Laravel\\Facades\\USIMPay"
             }
         }
     },

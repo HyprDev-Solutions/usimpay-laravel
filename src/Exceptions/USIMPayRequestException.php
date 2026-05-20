@@ -1,5 +1,5 @@
 <?php
 
-namespace Qandeez\USIMPay\Exceptions;
+namespace USIMPay\Laravel\Exceptions;
 
 class USIMPayRequestException extends USIMPayException {}

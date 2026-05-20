@@ -1,15 +1,15 @@
 <?php
 
-namespace Qandeez\USIMPay;
+namespace USIMPay\Laravel;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Qandeez\USIMPay\Data\PaymentInfoResponse;
-use Qandeez\USIMPay\Data\PaymentRequest;
-use Qandeez\USIMPay\Data\PaymentResponse;
-use Qandeez\USIMPay\Data\PaymentStatusResponse;
-use Qandeez\USIMPay\Enums\PaymentStatus;
+use USIMPay\Laravel\Data\PaymentInfoResponse;
+use USIMPay\Laravel\Data\PaymentRequest;
+use USIMPay\Laravel\Data\PaymentResponse;
+use USIMPay\Laravel\Data\PaymentStatusResponse;
+use USIMPay\Laravel\Enums\PaymentStatus;
 use Throwable;
 
 class USIMPayClient

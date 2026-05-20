@@ -1,6 +1,6 @@
 <?php
 
-namespace Qandeez\USIMPay\Exceptions;
+namespace USIMPay\Laravel\Exceptions;
 
 use RuntimeException;
 

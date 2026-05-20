@@ -18,7 +18,7 @@ It does not manage your application database records, routes, UI, or business wo
 Install with Composer:
 
 ```bash
-composer require qandeez/usimpay-laravel
+composer require usimpay/usimpay-laravel
 ```
 
 Publish the config:
@@ -41,7 +41,7 @@ USIMPAY_VERIFY_CALLBACKS=true
 ## Initialize Payment
 
 ```php
-use Qandeez\USIMPay\USIMPayClient;
+use USIMPay\Laravel\USIMPayClient;
 
 $response = app(USIMPayClient::class)->initializePayment([
     'customer_name' => 'Customer Name',

@@ -1,6 +1,6 @@
 <?php
 
-namespace Qandeez\USIMPay\Data;
+namespace USIMPay\Laravel\Data;
 
 use InvalidArgumentException;
 

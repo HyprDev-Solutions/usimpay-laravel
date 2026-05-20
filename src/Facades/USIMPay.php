@@ -1,13 +1,13 @@
 <?php
 
-namespace Qandeez\USIMPay\Facades;
+namespace USIMPay\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Qandeez\USIMPay\Data\PaymentInfoResponse;
-use Qandeez\USIMPay\Data\PaymentRequest;
-use Qandeez\USIMPay\Data\PaymentResponse;
-use Qandeez\USIMPay\Data\PaymentStatusResponse;
-use Qandeez\USIMPay\Enums\PaymentStatus;
+use USIMPay\Laravel\Data\PaymentInfoResponse;
+use USIMPay\Laravel\Data\PaymentRequest;
+use USIMPay\Laravel\Data\PaymentResponse;
+use USIMPay\Laravel\Data\PaymentStatusResponse;
+use USIMPay\Laravel\Enums\PaymentStatus;
 
 /**
  * @method static PaymentResponse initializePayment(array|PaymentRequest $request)
@@ -19,7 +19,7 @@ use Qandeez\USIMPay\Enums\PaymentStatus;
  * @method static PaymentStatus normalizeStatus(string|int|bool|null $status)
  * @method static bool verifyCallbackSignature(string $rawBody, ?string $signature)
  *
- * @see \Qandeez\USIMPay\USIMPayClient
+ * @see \USIMPay\Laravel\USIMPayClient
  */
 class USIMPay extends Facade
 {

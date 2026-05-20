@@ -1,9 +1,9 @@
 <?php
 
-namespace Qandeez\USIMPay\Tests;
+namespace USIMPay\Laravel\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Qandeez\USIMPay\USIMPayServiceProvider;
+use USIMPay\Laravel\USIMPayServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
